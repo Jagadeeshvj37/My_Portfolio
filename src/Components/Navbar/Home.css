@@ -1,0 +1,11 @@
+.home{
+    background: url("../../img/Jaga_bike.jpg");
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 530px;
+    /* transform: scale(1.5); */
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+    position: static;
+}

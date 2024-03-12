@@ -1,0 +1,21 @@
+.project-container{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 200px;
+}
+.project-container h1{
+    padding-bottom: 15px;
+}
+.project-container p{
+    padding-bottom: 30px;
+}
+.project-container .project-list{
+    display: flex;
+    /* width: 60vw; */
+    margin-top: 50px;
+    flex-wrap: wrap;
+}

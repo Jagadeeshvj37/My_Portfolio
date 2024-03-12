@@ -1,0 +1,54 @@
+.experience-container{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.experience-overall
+{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    margin: 20px;
+    /* padding: 20px 40px; */
+}
+.experience-client
+{
+    /* border: 2px white; */
+    flex: 0.2;
+    border: groove lightblue;
+    /* background-color: lightblue; */
+    margin: 0 5px;
+    transition:  300ms ease-in-out;
+}
+.experience-client:hover{
+    background-color: lightblue;
+    transform: scale(1.05);
+    
+}
+.experience-project{
+    flex: 0.2;
+    border:dashed lightcoral;
+    margin: 0 5px;
+    /* border-color: lightcoral; */
+    transition: transform 300ms ease-in-out;
+}
+
+.experience-project:hover{
+    background-color: lightcoral;
+    transform: scale(1.05);
+}
+.experience-teaching{
+    flex: 0.2;
+    border:double lightgreen;
+    margin: 0 5px;
+    /* background-color: lightgreen; */
+    transition: transform 200ms ease-in-out;
+}
+.experience-teaching:hover{
+    background-color: lightgreen;
+    transform: scale(1.05);
+}

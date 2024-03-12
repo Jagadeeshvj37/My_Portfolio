@@ -1,0 +1,23 @@
+.projectList-container img{
+    width: 350px;
+    height: 200px;
+}
+.projectList-container{
+    margin: 20px;
+    width: 350px;
+    height: 200px;
+    transition: transform 300ms ease-in-out;
+    
+}
+.projectList-container:hover{
+    background-color: orangered;
+    color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+a{
+    text-decoration: none;
+}
